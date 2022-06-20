@@ -1,0 +1,281 @@
+::placeholder { 
+  color: white;
+  opacity:  0.5;
+}
+
+/* Start of Guide Spacing  */
+body { 
+  padding-top: 100px;
+}
+
+h2 {
+  padding-bottom: 50px;
+}
+
+h3 {
+  padding-bottom: 20px;
+}
+
+.row {
+  padding-bottom: 40px;
+}
+
+@media (min-width: 576px) {
+  .primary-colors {
+    padding-bottom:  40px;
+  }
+}
+/* End UI Guide Spacing  */
+
+/* Start of Colours  */
+.colors {
+  width:  100px;
+  float: left;
+}
+
+.colors div { 
+  width:  50px;
+  height:  50px;
+  border-radius: 50%;
+  padding-bottom: 20px;
+}
+
+.primary-1{
+  background-color:  #09A5B9;
+}
+.primary-2{
+  background-color:  #fff79c;
+}
+.primary-3{
+  background-color:  #fcb604;
+}
+.primary-4{
+  background-color:  #81f7ff;
+}
+.primary-5{
+  background-color:  #CFE52B;
+}
+.primary-6{
+  background-color:  #197098;
+}
+
+.secondary-1{
+  background-color:  #a5f336;
+}
+.secondary-2{
+  background-color:  #b2e52b;
+}
+.secondary-3{
+  background-color:  #d0db00;
+}
+.secondary-4{
+  background-color:  #cee61d;
+}
+.secondary-5{
+  background-color:  #0F7FE2;
+}
+.secondary-6{
+  background-color:  #ffcc25;
+}
+.secondary-7{
+  background-color:  #FCBE04;
+}
+.secondary-8{
+  background-color:  #fc9904;
+}
+.secondary-9{
+  background-color:  #ffdb29;
+}
+.secondary-10{
+  background-color:  #ffb263;
+}
+.secondary-11{
+  background-color:  #64e0d2;
+}
+.secondary-12{
+  background-color:  #69d5f2;
+}
+
+/* End Colours  */
+
+/* Start Text Elements */
+
+.text-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fff79c;
+  color:  black;
+}
+
+.header1 {
+  font-size: 4.75vh;
+  font-family: auster, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.header2{
+  font-size: 4.75vh;
+  font-family: auster, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.header3{
+  font-size: 3.5vh;
+  font-family: objektiv-mk1, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.header4{
+  font-size: 3.5vh;
+  font-family: objektiv-mk1, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bodycopy1 {
+  font-size: 2.5vh;
+  font-family: objektiv-mk1, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bodycopy2 {
+  font-size: 2.5vh;
+  font-family: objektiv-mk1, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bodycopy3 {
+  font-size: 2vh;
+  font-family: objektiv-mk1, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bodycopy4 {
+  font-size: 2vh;
+  font-family: objektiv-mk1, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.textlink1 {
+  font-size: 4.75vh;
+  font-family: auster, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.textlink2 {
+  font-size: 3.5vh;
+  font-family: objektiv-mk1, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff79c;
+  background-color: black;
+  width: fit-content;
+}
+
+.textlink3 {
+  font-size: 2.5vh;
+  font-family: objektiv-mk1, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: underline;
+}
+/* End Text Elements */
+
+/* Start Form Elements */
+
+.form-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #09A5B9;
+  color:  white;
+}
+
+.ui-button {
+  border:  none;
+  padding: 10px 15px 10px 15px;
+  font-size: 2.5vh;
+  font-family: objektiv-mk1, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ui-button.hover {
+  color: #0F7FE2;
+  background-color:  #fff79c;
+
+}
+
+.ui-button.interactive {
+  transition:  all .25s;
+  background-color: #0F7FE2;
+  color:  #fff79c;
+}
+
+.ui-button.interactive:hover {
+  color: #0F7FE2;
+  background-color:  #fff79c;
+}
+
+.ui-button.interactive:active, .ui-button.interactive:focus {
+  outline: 0 !important;
+  border:  3px solid #81f7ff !important;
+}
+
+.ui-button.secondary {
+  background-color: #fff79c;
+  color:  #0F7FE2;
+}
+
+.ui-input {
+  border-radius: 0;
+  background:  transparent;
+  padding: 10px 15px 10px 15px;
+  border:  3px solid #fff79c;
+  color:  #fff79c;
+  font-size: 2vh;
+  font-family: objektiv-mk1, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inactive{
+  color:  #fff79c;
+  background-color: #0F7FE2;
+}
+
+.active { 
+  color:  #fff79c;
+  background-color: #0F7FE2;
+  border:  3px solid #81f7ff;
+}
+
+.inputactive {
+  border:  3px solid #81f7ff;
+}
+
+.error-message {
+  color: #81f7ff;
+  padding-top: 12px;
+  font-size: 1.75vh;
+  font-family: objektiv-mk1, sans-serif;
+  font-weight: 700;
+}
+
+.col-lg-3  {
+  padding-top: 20px;
+}
+
+.interactivebutton{
+  padding-bottom: 30px;
+}
+/* End Form Elements */
+
